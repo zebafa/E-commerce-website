@@ -1,0 +1,15 @@
+Name: Sadia
+Email: sadiailahi@gmail.com
+Address: 1-4-56, rajiv gandhi nagar, hyderabad
+Product: product1
+Quantity: 1
+Payment Method: paypal
+
+Order ID: 67011518af84d
+Name: aleena
+Email: sadiailahi@gmail.com
+Address: 1-4-42 shivaji nagar hyderabad
+Product: Product 1
+Quantity: 1
+Payment Method: paypal
+

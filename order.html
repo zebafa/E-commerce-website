@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Order Confirmation</h1>
+        <?php
+        if (isset($_GET['order_id'])) {
+            $orderID = htmlspecialchars(trim($_GET['order_id']));
+            echo "<p>Thank you for your order! Your order ID is <strong>$orderID</strong>.</p>";
+        } else {
+            echo "<p>No order ID found.</p>";
+        }
+        ?>
+    </div>
+</body>
+</html>
